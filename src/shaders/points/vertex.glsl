@@ -88,7 +88,6 @@ void main() {
     vUv = uv;
     vNormal = normal;
 
-    //float noice = cnoise(position * 5. + time);
     float ttime = time / 2.;
     float noice = cnoise(3. * vec3(position.x + ttime, position.y + 0.2*cos(2. * PI * ttime), position.z + 0.2 * sin(2. * PI * ttime)));
     noice = noice * (2. - noice);
@@ -97,7 +96,10 @@ void main() {
 
     vNoice = noice;
 
+
     vec4 vView = modelViewMatrix * vec4(newpos, 1.);
     vPosition = vView.xyz;
+
+    gl_PointSize = 2.5;
     gl_Position = projectionMatrix * vView;
 }
