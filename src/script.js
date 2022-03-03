@@ -147,11 +147,11 @@ export default class Sketch {
         })
 
         this.mesh = new THREE.Mesh( this.geometry, this.material );
-        this.keke = new THREE.Mesh(this.geometry, new THREE.MeshNormalMaterial({transparent: true, opacity: 0.9}));
+        this.ball = new THREE.Mesh(this.geometry, new THREE.MeshNormalMaterial({transparent: true, opacity: 0.9}));
 
 
         this.scene.add( this.mesh );
-        this.scene.add( this.keke );
+        this.scene.add( this.ball );
     }
 
     addPoints() {

@@ -1,5 +1,16 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+# Noicy sphere
+<p align="">
+<img src="https://img.shields.io/badge/-OpenGL-informational" />
+<img src="https://img.shields.io/badge/-Three.js-informational" />
+</p>
+
+Just sphere. Just noice. Just beautiful.
+
+## Gallery
+<img src="resources\images\sphere.gif?raw=true" />
+<img src="resources\images\sphere_1.png?raw=true" />
+
+#
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
